@@ -1,0 +1,153 @@
+#banner{
+  font-family: Guardian Sans;
+  text-align: center
+}
+.all {
+  font-family: Arial;
+  background-color: RGB(0,51,102);
+  text-align: left; 
+  display: none;
+}
+.show {
+  display: block;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+#container{
+  font-family: Arial;
+  background-color: RGB(0,51,102);
+  text-align: left; 
+}
+h2{
+  font-family: Guardian Sans;
+  color: RGB(0,204,255);
+}
+.GEAviation{
+  background-color: RGB(0,51,102);
+  color: white;
+  margin: 0px;
+}
+.GEDigital{
+  background-color: RGB(0,51,102);
+   color: white;
+  margin: 0px;
+}
+.GEHealthcare{
+  background-color: RGB(0,51,102);
+  color: white;
+  margin: 0px;
+}
+.GEPower{
+  background-color: RGB(0,51,102);
+  color: white;
+}
+.GERenewables{
+  background-color: RGB(0,51,102);
+   color: white;
+  height: auto;
+}
+#Otis{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Carrier{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Kone{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Yokogawa{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Schneider{
+  background-color:RGB(0,51,102);
+   color: white;
+}
+#Honeywell{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Wabtec{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+.BakerHughes{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#ABB{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#SPX{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Aptiv{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#MHI{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Spirit{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Huntsman{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Mitie{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+.OwensCorning{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Olympus{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Kennametal{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+.USSteel{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Nissan{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Honda{
+  background-color: RGB(0,51,102);
+   color: white;
+}
+#Driv{
+  background-color: RGB(0,51,102);
+   color: white;
+}
