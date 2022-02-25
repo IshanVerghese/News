@@ -5,7 +5,11 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "start": " node script.js"
+=======
+    "start": "node script.js"
+>>>>>>> 0db5af2db219671df7b1069d0b175ae3b7112b2e
   },
   "keywords": [
     "news",
