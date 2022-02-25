@@ -1,11 +1,12 @@
 const companies = ["MHI","Spirit","Huntsman","Mitie",
-"Owens Corning","Olympus", "Kennametal","US Steel","Nissan","Honda","Driv","Honeywell","Schneider","Yokogawa","Otis","Kone","Carrier","ABB","Aptiv","SPX"];
+"Owens Corning","Olympus", "Kennametal","US Steel","Nissan","Honda","Driv","Honeywell","Schneider","Yokogawa","Otis","Kone","Carrier","ABB","Aptiv","SPX", "Konica"];
 
-const gecomp = ["GE Aviation", "GE Digital", "GE Healthcare", "GE Power", "GE Renewables", "Wabtec", "Baker Hughes"];
+const gecomp = ["GE Aviation", "GE Digital", "GE Healthcare", "GE Power", "GE Renewables", "Wabtec", "Baker Hughes", "Cytiva"];
 
 getGCNews();
 function getGCNews(){
 for(let i=0; i<companies.length; i++){
+  
    var content = { company : companies[i] };
    let options = {method: 'POST', 
                   headers: {'Content-Type': 'application/json'}, 
@@ -15,10 +16,11 @@ for(let i=0; i<companies.length; i++){
       return response.json();
    })
    .then((user) => {
-      for(let j =0; j < user.news.length; j++){
-         const newsContent =  document.createTextNode(user.news[j]);  
+            for(let j =0; j < user.news.length; j++){  
+         var newsContent =  document.createElement('p');
+         newsContent.innerText = user.news[j];
          document.getElementById(companies[i]).appendChild(newsContent);   
-         document.getElementById(companies[i]).appendChild(document.createElement("BR"));
+         
    }}); 
  
 };
@@ -36,9 +38,10 @@ for(let i=0; i<gecomp.length; i++){
    })
    .then((user) => {
       for(let j =0; j < user.news.length; j++){
-         const newsContent =  document.createTextNode(user.news[j]);  
+         var newsContent =  document.createElement('p');  
+         newsContent.innerText = user.news[j];
          document.getElementById(gecomp[i]).appendChild(newsContent);   
-         document.getElementById(gecomp[i]).appendChild(document.createElement("BR"));
+         
    }}); 
  
 };

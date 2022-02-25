@@ -1,15 +1,22 @@
 #banner{
   font-family: Guardian Sans;
-  text-align: center
+  color: white;
+  text-align: center;
+  background-image: url("https://cdn.glitch.global/3639a420-e10b-41da-8f23-1f310ac565dc/grid1.jpg?v=1641969625268");  
+  margin: 0px;
 }
 .all {
   font-family: Arial;
-  background-color: RGB(0,51,102);
   text-align: left; 
   display: none;
+  margin: 0px;
 }
 .show {
   display: block;
+}
+#myBtnContainer{
+  margin: 0px;
+  text-align: center;
 }
 /* Style the buttons */
 .btn {
@@ -32,122 +39,17 @@
 }
 #container{
   font-family: Arial;
+  margin: 0px;
   background-color: RGB(0,51,102);
   text-align: left; 
+  line-height: 1.6;
+  color: white;
 }
 h2{
   font-family: Guardian Sans;
   color: RGB(0,204,255);
+  text-align: center;
 }
-.GEAviation{
-  background-color: RGB(0,51,102);
-  color: white;
-  margin: 0px;
-}
-.GEDigital{
-  background-color: RGB(0,51,102);
-   color: white;
-  margin: 0px;
-}
-.GEHealthcare{
-  background-color: RGB(0,51,102);
-  color: white;
-  margin: 0px;
-}
-.GEPower{
-  background-color: RGB(0,51,102);
-  color: white;
-}
-.GERenewables{
-  background-color: RGB(0,51,102);
-   color: white;
-  height: auto;
-}
-#Otis{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Carrier{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Kone{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Yokogawa{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Schneider{
-  background-color:RGB(0,51,102);
-   color: white;
-}
-#Honeywell{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Wabtec{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-.BakerHughes{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#ABB{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#SPX{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Aptiv{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#MHI{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Spirit{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Huntsman{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Mitie{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-.OwensCorning{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Olympus{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Kennametal{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-.USSteel{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Nissan{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Honda{
-  background-color: RGB(0,51,102);
-   color: white;
-}
-#Driv{
-  background-color: RGB(0,51,102);
-   color: white;
+p{
+  padding-left: 80px; 
 }
